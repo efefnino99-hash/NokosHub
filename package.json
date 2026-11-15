@@ -1,0 +1,13 @@
+{
+  "name": "nokosrayhub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "vercel dev", "deploy": "vercel --prod"},
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "grammy": "^1.38.2",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {"vercel": "^48.0.0"}
+}
